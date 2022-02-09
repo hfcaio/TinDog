@@ -1,0 +1,193 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+/* default colors */
+
+.white-background {
+    background-color: #fff;
+}
+
+.colored-background {
+    background-color: #ef8172;
+}
+
+/* Containers */
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* Navigation Bar */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+/* Title Section */
+
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+#title h1 {
+    font-size: 3.5rem;
+    line-height: 1.5;
+    text-align: left;
+}
+ 
+#title .container-fluid {
+    padding: 3% 15% 7%;
+}
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+.img-div {
+    position: relative;
+}
+
+.title-img {
+    width: 60%;
+    transform: rotate(25deg); 
+    position: absolute;
+    right: 30%;
+} 
+
+/* Features Section */
+
+#features {
+    position: relative;
+}
+
+#features i {
+    color: #ef8172;
+    padding: 1rem;
+}
+
+#features i:hover {
+    color: #ff4c68;
+}
+
+#features h3 {
+    font-size: 1.5rem;
+}
+
+#features p {
+    color: #8f8f8f;
+}
+
+.f-item {
+    padding: 2%;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+    color: #fff;
+}
+
+#testimonials h2 {
+    font-size: 3rem;
+    list-style: 1.5;
+}
+
+.testimonial-img {
+    width: 10%;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+
+/* Press Section */
+
+#press {
+    padding-bottom: 3%;
+}
+
+#press img {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Princing Section */
+
+#pricing {
+    padding: 100px;
+}
+
+#pricing h2 {
+    font-size: 2.5rem;
+    list-style: 1.5;
+}
+
+#pricing h3 {
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+/* Call To Action */
+
+#cta {
+    color: #fff;
+}
+
+#cta h3 {
+    font-weight: bold;
+    font-size: 3rem;
+    list-style: 1.5;
+    padding-bottom: 3rem;
+}
+
+#cta button {
+    margin: 0 1rem;
+}
+
+/* Footer */
+#footer i {
+    padding: 0.5rem;
+}
+
+#footer p {
+    padding: 2rem 0 0;
+}
+
+/* media */
+
+@media (max-width: 992px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-img {
+        position: static;
+        transform: rotate(0);
+    }
+}
